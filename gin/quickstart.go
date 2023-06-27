@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// 设置生产模式，默认 debug 模式
-	gin.SetMode(gin.ReleaseMode)
+	//gin.SetMode(gin.ReleaseMode)
 
 	s := gin.Default()
 
