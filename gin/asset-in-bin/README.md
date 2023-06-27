@@ -1,6 +1,7 @@
 # static assets
 Go应用最终将编译成二进制文件，无法处理 html、css 等静态文件
 利用 `go-assets`、`vfsgen` 第三方库可以解决此问题
+参考 [go-assets]("https://gin-gonic.com/docs/examples/bind-single-binary-with-template/")
 1. 利用`go-assets`解决 html 问题
 ```
 github.com/jessevdk/go-assets

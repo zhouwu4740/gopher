@@ -1,7 +1,10 @@
 package main
 
-import "github.com/zhouwu4740/tobegopher/gomicro"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	gomicro.Quickstart()
+	fmt.Println(strings.HasSuffix("abc.html", ".html"))
 }
